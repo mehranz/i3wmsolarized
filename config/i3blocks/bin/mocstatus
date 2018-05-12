@@ -1,0 +1,12 @@
+#!/bin/bash 
+## a script to show moc status 
+## by Mehran Zolghadr
+
+mocpState=`mocp -Q %state`
+if [ "$mocpState" == "PLAY" ]; then
+        songTitle=`mocp -Q %song`
+        songArtist=`mocp -Q %artist`
+        echo $songArtist - $songTitle 
+else
+        echo "Nothing is Playing"
+fi

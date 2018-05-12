@@ -1,0 +1,18 @@
+#!/bin/bash 
+## a script for change wallpaper every hour or everytime you turn on your pc
+## by Mehran Zolghadr  
+
+IFS=$'\n'
+# for change wallpaper randomly in every hour
+while [ "1" == "1" ]; do 
+        name=`ls ~/.config/i3/wallpapers/ | shuf -n 1`
+        feh --bg-fill ~/.config/i3/wallpapers/$name
+        sleep 1h
+done
+
+
+### for change wallpaper everytime system turns on
+## if you want to change your wallpaper every time you turn on your system just comment out top lines and uncomment bottom lines.
+## name=`ls ~/.config/i3/wallpapers/ | shuf -n 1`
+## feh --bg-fill ~/.config/i3/wallpapers/$name
+ 

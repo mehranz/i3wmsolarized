@@ -1,0 +1,34 @@
+#!/bin/bash 
+## a script to show volume value 
+## by Mehran Zolghadr
+
+use open ':std', ':encoding(UTF-8)';
+volumevalue=`/usr/lib/i3blocks/volume`
+volumevaluewopercent=`echo $volumevalue | sed 's/\%//g'`
+
+
+if [ "$volumevaluewopercent" == "MUTE" ]; then 
+        echo "|"${volumevalue}
+elif [ "$volumevaluewopercent" == "0" ]; then
+        echo "|"${volumevalue}
+elif [ "$volumevaluewopercent" -gt "0" ] && [ "$volumevaluewopercent" -le "10" ]; then 
+        echo "|"${volumevalue}
+elif [ "$volumevaluewopercent" -gt "10" ] && [ "$volumevaluewopercent" -le "20" ]; then 
+        echo "|"${volumevalue}
+elif [ "$volumevaluewopercent" -gt "20" ] && [ "$volumevaluewopercent" -le "30" ]; then 
+        echo "|"${volumevalue}
+elif [ "$volumevaluewopercent" -gt "30" ] && [ "$volumevaluewopercent" -le "40" ]; then 
+        echo "|"${volumevalue}
+elif [ "$volumevaluewopercent" -gt "40" ] && [ "$volumevaluewopercent" -le "50" ]; then
+        echo "|"${volumevalue}
+elif [ "$volumevaluewopercent" -gt "50" ] && [ "$volumevaluewopercent" -le "60" ]; then 
+        echo "|"${volumevalue}
+elif [ "$volumevaluewopercent" -gt "60" ] && [ "$volumevaluewopercent" -le "70" ]; then 
+        echo "|"${volumevalue}
+elif [ "$volumevaluewopercent" -gt "70" ] && [ "$volumevaluewopercent" -le "80" ]; then 
+        echo "|"${volumevalue}
+elif [ "$volumevaluewopercent" -gt "80" ] && [ "$volumevaluewopercent" -le "90" ]; then 
+        echo "|"${volumevalue}
+elif [ "$volumevaluewopercent" -gt "90" ] && [ "$volumevaluewopercent" -le "100" ]; then 
+        echo "|"${volumevalue}
+fi

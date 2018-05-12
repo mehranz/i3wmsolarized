@@ -1,0 +1,26 @@
+#!/bin/bash
+## A script to show num and caps lock status
+## from here: https://gitlab.com/RasoolSN/i3-desktop/blob/master/Files/i3blocks/fn_lock_script/fn_lock_script.sh 
+## and edited by Mehran Zolghadr To make it more beautiful for this config
+
+
+numLockTextColor="#447C93"
+numLockStatusColor="#447C93"
+capsLockTextColor="#447C93"
+capsLockStatusColor="#447C93"
+
+if [[ $(xset -q | grep -i num | cut -f5 -d: | cut -f5 -d" ") == "on" ]];then
+    numLockTextColor="#6ABEE7"
+    numLockStatusColor="#6ABEE7"
+fi
+
+if [[ $(xset -q | grep -i caps | cut -f3 -d: | cut -f4 -d" ") == "on" ]];then
+    capsLockTextColor="#6ABEE7"
+    capsLockStatusColor="#6ABEE7"
+fi
+
+echo -e "<span foreground='$numLockStatusColor'>●</span>\
+ <span foreground='$numLockTextColor'>Num</span>\
+   <span foreground='$capsLockStatusColor'>●</span>\
+ <span foreground='$capsLockTextColor'>Caps</span>"
+
