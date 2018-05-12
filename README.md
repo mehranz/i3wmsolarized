@@ -2,7 +2,7 @@
 ## A Simple and Beautiful i3wm Config.
 This is a Config collection for i3wm and some other applications like Vim or Conky!
 
-screenshot:
+Screenshot:
 ![i3wm screenshot](./images/screenshots/shot1.jpg)
 
 # Installation
@@ -78,8 +78,15 @@ Then open vim and Run `:PlugInstall` to install plugins. if you want to see what
 
 If you like this configuration, you can give it a star ! 
 
+I'll write an installer script for install this Config, soon ! :)
+
+
+\*\* Telegram Desktop Solarized Theme Added ! 
+
+
 ### Enjoy ! :) 
 
+Second Screenshot:
 ![i3wmsolarized](./images/screenshots/shot2.jpg)
 
 
