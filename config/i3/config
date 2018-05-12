@@ -1,3 +1,5 @@
+# i3wm config by Mehran Zolghadr
+
 # Set Mod (Super)
 set $mod Mod4
 
@@ -282,7 +284,7 @@ mode "$mode_gaps_outer" {
 
 # Startup
 exec --no-startup-id nm-applet
-exec --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/code-3840x2160.jpg 
+exec --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/wallpaper.jpg 
 exec --no-startup-id parcellite
 exec --no-startup-id xrdb -load .Xresources
 exec --no-startup-id conky -d
