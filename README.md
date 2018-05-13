@@ -6,7 +6,7 @@ Screenshot:
 ![i3wm screenshot](./images/screenshots/shot1.jpg)
 
 # Installation
-This config is made for Arch Linux. but if you can find the requipments in other distribution's repository, You can use this, too!
+This config is made for Arch Linux. but if you can find the requirements in other distribution's repository, You can use this, too!
 
 first of all clone this repository to your computer with this command (needs git package):
 
