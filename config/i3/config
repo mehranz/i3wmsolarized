@@ -290,7 +290,7 @@ exec --no-startup-id xrdb -load .Xresources
 exec --no-startup-id conky -d
 exec compton -b
 ## if you want to change your wallpaper every one hour, copy your wallpapers to ~/.config/.i3/wallpapers and uncomment this line.
-## exec --no-startup-id wallpaperchange
+## exec --no-startup-id ~/.config/i3/bin/wallpaperchange
 #if you want to auto mount removable disks, install udiskie package and uncomment this. 
 ## exec --no-startup-id udiskie -a -t -F &
 
