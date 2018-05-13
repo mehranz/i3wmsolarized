@@ -2,6 +2,16 @@
 ## A Simple and Beautiful i3wm Config.
 This is a Config collection for i3wm and some other applications like Vim or Conky!
 
+## Features
+- Volume Control with Keyboard Multimedia Keys
+- Control MOC with the Keyboard Multimedia Keys 
+- New Scripts for i3blocks and Edited Some of Its Default
+- Change Wallpaper Every an hour or Everytime you trun on your computer! (see i3wm config file line 93 and `config/i3/bin/wallpaperchange`)
+- auto mount removable disks (see i3wm config file line 294)
+- Customized Conky
+- A class finder script that helps you to find windows class and some other Window's Specifications like id, instance and title, for use in config file or anywhere ! you can find it in `config/i3/bin/classfinder` !
+- And many other features you can find them by looking at the configuration file ! 
+
 Screenshot:
 ![i3wm screenshot](./images/screenshots/shot1.jpg)
 
