@@ -1,0 +1,27 @@
+13-gaps
+i3blocks
+i3lock
+flameshot
+conky
+rxvt-unicode
+dmenu
+xorg-setxkbmap
+nm-applet
+feh
+parcellite
+compton
+notfiy-osd
+bc
+moc
+ttf-font-awesome
+xorg-xrdb
+alsa-utils
+xorg-xprop
+xorg-xwininfo
+
+
+also you'll need to install this packages from AUR:
+ttf-monaco
+ttf-vazir
+caviar-dreams
+xkblayout-state
