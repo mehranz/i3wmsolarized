@@ -63,7 +63,7 @@ for use this Xresources file just copy `Xresources/Xresources` as `~/.Xresources
 ## Conky
 I've edited bioshock2 Conky to look better with my i3 config. 
 
-if you like use my edited Conky, just copy `conky/conkyrc` as `~/.conkyrc` , then copy `conky/font/Feena-Casual.ttf` to `/usr/share/fonts/TTF/`, and run Conky!
+if you like use my edited Conky, just copy `conky/conkyrc` as `~/.conkyrc` , then copy `conky/font/Feena-Casual.ttf` to `/usr/share/fonts/TTF/`, and then run Conky!
 
 ![Conky](./images/screenshots/conky.jpg)
 
@@ -79,7 +79,7 @@ I use Vim for everything, **From a simple edit to professional programming !**
 
 To use my vim Config, Copy `vim/vimrc` as `~/.vimrc` and then copy `vim/colors` to `~/.vim` . 
 
-I've used vim-plug plugin manager to install the plugins that I wanted. so you should install it to install the plugins I put in vimrc. if you don't wanna use that plugins just delete vimrc's line 67 to 82 . 
+I've used vim-plug plugin manager to install the plugins that I wanted. so you should install it for install the plugins that I put in vimrc. if you don't wanna use that plugins just delete vimrc's line 67 to 82 . 
 To install vim-plug, [see here](https://github.com/junegunn/vim-plug) .
 
 Then open vim and Run `:PlugInstall` to install plugins. if you want to see what plugins will be installed, open vimrc and check it from line 69 to 80 . 
