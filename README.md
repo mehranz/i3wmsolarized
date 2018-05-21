@@ -1,5 +1,9 @@
 # Solarized Config for i3 Window Manager
+<<<<<<< HEAD
 ### A Simple and Beautiful i3wm Config
+=======
+## A Simple and Beautiful i3wm Config
+>>>>>>> 1b525fd02c078ac24dc5f34b9d79231b1995c3d6
 This is a Config collection for i3wm and some other applications like Vim or Conky!
 
 ## Features
