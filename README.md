@@ -19,7 +19,7 @@ This config is made for Arch Linux. but if you can find the requirements in othe
 
 first of all clone this repository to your computer with this command (needs git package):
 
-```git clone https://github.com/mehranzolghadr666/i3wmsolarized.git```
+`git clone https://github.com/mehranzolghadr666/i3wmsolarized.git`
 
 ## Requirements
 
@@ -27,11 +27,11 @@ Note: this names is name of packages in arch linux repositories. so if you're us
 
 You can find The list of requirements in the requirements file in the main folder of this repository. However i'll write name of those packages you'll need to use this config.:
 
-`13-gaps i3blocks i3lock flameshot conky rxvt-unicode dmenu xorg-setxkbmap nm-applet feh parcellite compton notfiy-osd bc moc ttf-font-awesome xorg-xrdb alsa-utils xorg-xprop xorg-xwininfo`
+`i3-gaps i3blocks i3lock flameshot conky rxvt-unicode dmenu xorg-setxkbmap network-manager-applet feh parcellite compton notify-osd bc moc ttf-font-awesome xorg-xrdb alsa-utils xorg-xprop xorg-xwininfo`
 
 also you should install this packages from AUR:
 
-`ttf-monaco ttf-vazir caviar-dreams xkblayout-state`
+`ttf-monaco vazir-fonts caviar-dreams xkblayout-state-git`
 
 ## i3wm
 
