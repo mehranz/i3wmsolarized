@@ -1,4 +1,4 @@
-13-gaps
+i3-gaps
 i3blocks
 i3lock
 flameshot
@@ -6,11 +6,11 @@ conky
 rxvt-unicode
 dmenu
 xorg-setxkbmap
-nm-applet
+network-manager-applet
 feh
 parcellite
 compton
-notfiy-osd
+notify-osd
 bc
 moc
 ttf-font-awesome
@@ -21,7 +21,6 @@ xorg-xwininfo
 
 
 also you'll need to install this packages from AUR:
-ttf-monaco
-ttf-vazir
+ttf-monaco vazir-fonts
 caviar-dreams
-xkblayout-state
+xkblayout-state-git
