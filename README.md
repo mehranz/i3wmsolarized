@@ -19,7 +19,7 @@ This config is made for Arch Linux. but if you can find the requirements in othe
 
 first of all clone this repository to your computer with this command (needs git package):
 
-`git clone https://github.com/mehranzolghadr666/i3wmsolarized.git`
+```git clone https://github.com/mehranzolghadr666/i3wmsolarized.git```
 
 ## Requirements
 
